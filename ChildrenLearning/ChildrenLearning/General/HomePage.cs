@@ -35,5 +35,25 @@ namespace ChildrenLearning
             this.Hide();
             selectClass.Show();
         }
+
+        private void button2_MouseEnter(object sender, EventArgs e)
+        {
+            button2.BackgroundImage = Properties.Resources.DaftarHover;
+        }
+
+        private void button2_MouseLeave(object sender, EventArgs e)
+        {
+            button2.BackgroundImage = Properties.Resources.Daftar;
+        }
+
+        private void button3_MouseEnter(object sender, EventArgs e)
+        {
+            button3.BackgroundImage = Properties.Resources.BeritaHover;
+        }
+
+        private void button3_MouseLeave(object sender, EventArgs e)
+        {
+            button3.BackgroundImage = Properties.Resources.Berita;
+        }
     }
 }

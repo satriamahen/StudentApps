@@ -99,9 +99,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BG1_plus.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Masuk.png" />
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +121,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\UserHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Berita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BeritaHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG1_plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Daftar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DaftarHover.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

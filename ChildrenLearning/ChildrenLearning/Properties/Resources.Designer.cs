@@ -63,6 +63,26 @@ namespace ChildrenLearning.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Berita {
+            get {
+                object obj = ResourceManager.GetObject("Berita", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BeritaHover {
+            get {
+                object obj = ResourceManager.GetObject("BeritaHover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BG1_plus {
             get {
                 object obj = ResourceManager.GetObject("BG1_plus", resourceCulture);
@@ -106,6 +126,26 @@ namespace ChildrenLearning.Properties {
         internal static System.Drawing.Bitmap ClassHover {
             get {
                 object obj = ResourceManager.GetObject("ClassHover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Daftar {
+            get {
+                object obj = ResourceManager.GetObject("Daftar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DaftarHover {
+            get {
+                object obj = ResourceManager.GetObject("DaftarHover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
