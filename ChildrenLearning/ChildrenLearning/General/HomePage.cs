@@ -12,6 +12,9 @@ namespace ChildrenLearning
 {
     public partial class HomePage : Form
     {
+
+        SelectClass selectClass = new SelectClass();
+
         public HomePage()
         {
             InitializeComponent();
@@ -25,6 +28,12 @@ namespace ChildrenLearning
         private void button1_MouseLeave(object sender, EventArgs e)
         {
             button1.BackgroundImage = Properties.Resources.Masuk;
+        }
+
+        private void button1_MouseUp(object sender, MouseEventArgs e)
+        {
+            this.Hide();
+            selectClass.Show();
         }
     }
 }
