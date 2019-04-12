@@ -83,6 +83,16 @@ namespace ChildrenLearning.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BG3_plus {
+            get {
+                object obj = ResourceManager.GetObject("BG3_plus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Class {
             get {
                 object obj = ResourceManager.GetObject("Class", resourceCulture);
@@ -116,6 +126,26 @@ namespace ChildrenLearning.Properties {
         internal static System.Drawing.Bitmap MasukHover {
             get {
                 object obj = ResourceManager.GetObject("MasukHover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap User {
+            get {
+                object obj = ResourceManager.GetObject("User", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap UserHover {
+            get {
+                object obj = ResourceManager.GetObject("UserHover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
