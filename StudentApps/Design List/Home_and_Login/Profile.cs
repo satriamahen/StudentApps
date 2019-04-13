@@ -29,6 +29,18 @@ namespace StudentApps
             }
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Design_List.Materi.Gross.Form1 level = new Design_List.Materi.Gross.Form1();
+            level.Show();
+        }
+
         private void button2_MouseUp(object sender, MouseEventArgs e)
         {
             if (goal1 == true && goal2 == false)

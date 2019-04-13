@@ -132,6 +132,7 @@
             this.button5.Size = new System.Drawing.Size(27, 97);
             this.button5.TabIndex = 5;
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -180,6 +181,7 @@
             this.button8.Size = new System.Drawing.Size(27, 97);
             this.button8.TabIndex = 8;
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -197,7 +199,7 @@
             this.button9.TabIndex = 9;
             this.button9.UseVisualStyleBackColor = false;
             // 
-            // Form4
+            // Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -216,7 +218,7 @@
             this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "Form4";
+            this.Name = "Profile";
             this.Text = "Form4";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

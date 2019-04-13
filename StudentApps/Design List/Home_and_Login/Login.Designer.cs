@@ -100,6 +100,7 @@
             this.button4.Size = new System.Drawing.Size(120, 171);
             this.button4.TabIndex = 3;
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             this.button4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
             // button5
@@ -222,7 +223,7 @@
             this.button12.UseVisualStyleBackColor = false;
             this.button12.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
-            // Form3
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -243,7 +244,7 @@
             this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "Form3";
+            this.Name = "Login";
             this.Text = "Form3";
             this.ResumeLayout(false);
 
