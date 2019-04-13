@@ -16,7 +16,7 @@ namespace StudentApps
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new homepage());
+            Application.Run(new HomePage());
         }
     }
 }

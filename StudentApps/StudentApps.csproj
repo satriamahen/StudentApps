@@ -52,22 +52,10 @@
     <Compile Include="Design List\Action\StoryTell\StoryForm.Designer.cs">
       <DependentUpon>StoryForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Design List\Home_and_Login\classSelect.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Design List\Home_and_Login\classSelect.Designer.cs">
-      <DependentUpon>classSelect.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Design List\Home_and_Login\homepage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Design List\Home_and_Login\homepage.Designer.cs">
-      <DependentUpon>homepage.cs</DependentUpon>
-    </Compile>
     <Compile Include="Design List\Home_and_Login\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Design List\Home_and_Login\Login.Designer.cs">
+    <Compile Include="Design List\Home_and_Login\Login.designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Design List\Home_and_Login\Profile.cs">
@@ -75,6 +63,12 @@
     </Compile>
     <Compile Include="Design List\Home_and_Login\Profile.Designer.cs">
       <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Home_and_Login\SelectClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Home_and_Login\SelectClass.designer.cs">
+      <DependentUpon>SelectClass.cs</DependentUpon>
     </Compile>
     <Compile Include="Design List\Materi\Gross\Gross5.cs">
       <SubType>Form</SubType>
@@ -148,6 +142,12 @@
     <Compile Include="Design List\Materi\Math\math5.Designer.cs">
       <DependentUpon>math5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Design List\Home_and_Login\HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Home_and_Login\HomePage.designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
@@ -156,17 +156,14 @@
     <EmbeddedResource Include="Design List\Action\StoryTell\StoryForm.resx">
       <DependentUpon>StoryForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Design List\Home_and_Login\classSelect.resx">
-      <DependentUpon>classSelect.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Design List\Home_and_Login\homepage.resx">
-      <DependentUpon>homepage.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Design List\Home_and_Login\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Design List\Home_and_Login\Profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Home_and_Login\SelectClass.resx">
+      <DependentUpon>SelectClass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Design List\Materi\Gross\Gross1.resx">
       <DependentUpon>Gross1.cs</DependentUpon>
@@ -204,6 +201,9 @@
     <EmbeddedResource Include="Design List\Materi\Math\math5.resx">
       <DependentUpon>math5.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Home_and_Login\HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -234,6 +234,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\117685-OPRFBM-7501.png" />
+    <None Include="Resources\User.png" />
+    <None Include="Resources\UserHover.png" />
     <None Include="Resources\WoodBackground.jpg" />
     <None Include="Resources\5a24aa34634e38.1605904215123523084068.png" />
     <None Include="Resources\5a384c3c575ea6.3483798615136389723579.png" />
@@ -243,6 +245,11 @@
     <None Include="Resources\arrow.png" />
     <None Include="Resources\bikek.png" />
     <None Include="Resources\bikek1.PNG" />
+    <None Include="Resources\Berita.png" />
+    <None Include="Resources\BeritaHover.png" />
+    <None Include="Resources\BG1_plus.png" />
+    <None Include="Resources\BG2_plus.png" />
+    <None Include="Resources\BG3_plus.png" />
     <Content Include="Resources\Book.png" />
     <None Include="Resources\BookPolos.png" />
     <Content Include="Resources\ButtonDifabel.png" />
@@ -258,10 +265,14 @@
     <None Include="Resources\button_Art1.png" />
     <None Include="Resources\button_Art_hover.png" />
     <None Include="Resources\c1b018a55d988f3e8884a730d8f49103.png" />
+    <None Include="Resources\Class.png" />
+    <None Include="Resources\ClassHover.png" />
     <Content Include="Resources\ClassRoom.png" />
     <Content Include="Resources\ClassSelect.png" />
     <None Include="Resources\ebokepedbert5.jpg" />
     <None Include="Resources\ecdd55129f7601a64413326330763405.jpg" />
+    <None Include="Resources\Daftar.png" />
+    <None Include="Resources\DaftarHover.png" />
     <Content Include="Resources\FacilityButton.png" />
     <Content Include="Resources\FacilityButton_hover.png" />
     <Content Include="Resources\finebutton.png" />
@@ -293,6 +304,8 @@
     <None Include="Resources\lompat-jauh.jpg" />
     <None Include="Resources\longjump.PNG" />
     <None Include="Resources\longjump1.PNG" />
+    <None Include="Resources\Masuk.png" />
+    <None Include="Resources\MasukHover.png" />
     <Content Include="Resources\mathbutton.png" />
     <Content Include="Resources\newsbutton.png" />
     <Content Include="Resources\newsbutton_hover.png" />

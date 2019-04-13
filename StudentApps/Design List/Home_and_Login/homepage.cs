@@ -10,58 +10,50 @@ using System.Windows.Forms;
 
 namespace StudentApps
 {
-    public partial class homepage : Form
+    public partial class HomePage : Form
     {
-        public homepage()
+
+        SelectClass selectClass = new SelectClass();
+
+        public HomePage()
         {
             InitializeComponent();
         }
 
         private void button1_MouseEnter(object sender, EventArgs e)
         {
-            button1.BackgroundImage = StudentApps.Properties.Resources.LoginButton_hover;
+            button1.BackgroundImage = Properties.Resources.MasukHover;
         }
 
         private void button1_MouseLeave(object sender, EventArgs e)
         {
-            button1.BackgroundImage = StudentApps.Properties.Resources.LoginButton;
-        }
-
-        private void button2_MouseEnter(object sender, EventArgs e)
-        {
-            button2.BackgroundImage = StudentApps.Properties.Resources.FacilityButton_hover;
-        }
-
-        private void button2_MouseLeave(object sender, EventArgs e)
-        {
-            button2.BackgroundImage = StudentApps.Properties.Resources.FacilityButton;
-        }
-
-        private void button3_MouseEnter(object sender, EventArgs e)
-        {
-            button3.BackgroundImage = StudentApps.Properties.Resources.newsbutton_hover;
-        }
-
-        private void button3_MouseLeave(object sender, EventArgs e)
-        {
-            button3.BackgroundImage = StudentApps.Properties.Resources.newsbutton;
-        }
-
-        private void button4_MouseEnter(object sender, EventArgs e)
-        {
-            button4.BackgroundImage = StudentApps.Properties.Resources.registerbutton_hover;
-        }
-
-        private void button4_MouseLeave(object sender, EventArgs e)
-        {
-            button4.BackgroundImage = StudentApps.Properties.Resources.registerbutton;
+            button1.BackgroundImage = Properties.Resources.Masuk;
         }
 
         private void button1_MouseUp(object sender, MouseEventArgs e)
         {
             this.Hide();
-            classSelect form2 = new classSelect();
-            form2.Show();
+            selectClass.Show();
+        }
+
+        private void button2_MouseEnter(object sender, EventArgs e)
+        {
+            button2.BackgroundImage = Properties.Resources.DaftarHover;
+        }
+
+        private void button2_MouseLeave(object sender, EventArgs e)
+        {
+            button2.BackgroundImage = Properties.Resources.Daftar;
+        }
+
+        private void button3_MouseEnter(object sender, EventArgs e)
+        {
+            button3.BackgroundImage = Properties.Resources.BeritaHover;
+        }
+
+        private void button3_MouseLeave(object sender, EventArgs e)
+        {
+            button3.BackgroundImage = Properties.Resources.Berita;
         }
     }
 }

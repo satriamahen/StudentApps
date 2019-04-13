@@ -10,63 +10,60 @@ using System.Windows.Forms;
 
 namespace StudentApps
 {
-    public partial class classSelect : Form
+    public partial class SelectClass : Form
     {
-        public classSelect()
+
+        Login login = new Login();
+
+        public SelectClass()
         {
             InitializeComponent();
         }
 
         private void button1_MouseEnter(object sender, EventArgs e)
         {
-            button1.BackgroundImage = StudentApps.Properties.Resources.ButtonPG_hover;
+            button1.BackgroundImage = Properties.Resources.ClassHover;
         }
 
         private void button1_MouseLeave(object sender, EventArgs e)
         {
-            button1.BackgroundImage = StudentApps.Properties.Resources.ButtonPG;
+            button1.BackgroundImage = Properties.Resources.Class;
         }
 
         private void button2_MouseEnter(object sender, EventArgs e)
         {
-            button2.BackgroundImage = StudentApps.Properties.Resources.ButtonDifabel_hover;
+            button2.BackgroundImage = Properties.Resources.ClassHover;
         }
 
         private void button2_MouseLeave(object sender, EventArgs e)
         {
-            button2.BackgroundImage = StudentApps.Properties.Resources.ButtonDifabel;
+            button2.BackgroundImage = Properties.Resources.Class;
         }
 
         private void button3_MouseEnter(object sender, EventArgs e)
         {
-            button3.BackgroundImage = StudentApps.Properties.Resources.ButtonTkA_hover;
+            button3.BackgroundImage = Properties.Resources.ClassHover;
         }
 
         private void button3_MouseLeave(object sender, EventArgs e)
         {
-            button3.BackgroundImage = StudentApps.Properties.Resources.ButtonTkA;
+            button3.BackgroundImage = Properties.Resources.Class;
         }
 
         private void button4_MouseEnter(object sender, EventArgs e)
         {
-            button4.BackgroundImage = StudentApps.Properties.Resources.ButtonTkB_hover;
+            button4.BackgroundImage = Properties.Resources.ClassHover;
         }
 
         private void button4_MouseLeave(object sender, EventArgs e)
         {
-            button4.BackgroundImage = StudentApps.Properties.Resources.ButtonTkB;
+            button4.BackgroundImage = Properties.Resources.Class;
         }
 
         private void button1_MouseUp(object sender, MouseEventArgs e)
         {
             this.Hide();
-            Login form3 = new Login();
-            form3.Show();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
+            login.Show();
         }
     }
 }
