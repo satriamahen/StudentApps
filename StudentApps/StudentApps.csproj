@@ -112,72 +112,6 @@
     <Compile Include="Design List\Materi\Math\math5.Designer.cs">
       <DependentUpon>math5.cs</DependentUpon>
     </Compile>
-    <Compile Include="Design List\Materi\Science\LevelSelect.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\LevelSelect.Designer.cs">
-      <DependentUpon>LevelSelect.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science1.Designer.cs">
-      <DependentUpon>Science1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\ScienceFinal.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\ScienceFinal.Designer.cs">
-      <DependentUpon>ScienceFinal.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science2.Designer.cs">
-      <DependentUpon>Science2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science3.Designer.cs">
-      <DependentUpon>Science3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science4.Designer.cs">
-      <DependentUpon>Science4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science5.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science5.Designer.cs">
-      <DependentUpon>Science5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science6.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science6.Designer.cs">
-      <DependentUpon>Science6.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science7.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science7.Designer.cs">
-      <DependentUpon>Science7.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science8.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science8.Designer.cs">
-      <DependentUpon>Science8.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science9.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Design List\Materi\Science\Science9.Designer.cs">
-      <DependentUpon>Science9.cs</DependentUpon>
-    </Compile>
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
@@ -216,39 +150,6 @@
     <EmbeddedResource Include="Design List\Materi\Math\math5.resx">
       <DependentUpon>math5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Design List\Materi\Science\LevelSelect.resx">
-      <DependentUpon>LevelSelect.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Design List\Materi\Science\Science1.resx">
-      <DependentUpon>Science1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Design List\Materi\Science\ScienceFinal.resx">
-      <DependentUpon>ScienceFinal.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Design List\Materi\Science\Science2.resx">
-      <DependentUpon>Science2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Design List\Materi\Science\Science3.resx">
-      <DependentUpon>Science3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Design List\Materi\Science\Science4.resx">
-      <DependentUpon>Science4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Design List\Materi\Science\Science5.resx">
-      <DependentUpon>Science5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Design List\Materi\Science\Science6.resx">
-      <DependentUpon>Science6.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Design List\Materi\Science\Science7.resx">
-      <DependentUpon>Science7.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Design List\Materi\Science\Science8.resx">
-      <DependentUpon>Science8.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Design List\Materi\Science\Science9.resx">
-      <DependentUpon>Science9.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -278,7 +179,6 @@
     <Folder Include="bin\Release\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Design List\Materi\Science\Science.csproj" />
     <Content Include="Resources\117685-OPRFBM-7501.png" />
     <Content Include="Resources\Book.png" />
     <Content Include="Resources\ButtonDifabel.png" />
