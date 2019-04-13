@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FC6E5A47-A9E1-421B-AD13-A687F5779BBE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>StudentApps</RootNamespace>
+    <AssemblyName>StudentApps</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Design List\Action\StoryTell\StoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Action\StoryTell\StoryForm.Designer.cs">
+      <DependentUpon>StoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Home_and_Login\classSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Home_and_Login\classSelect.Designer.cs">
+      <DependentUpon>classSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Home_and_Login\homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Home_and_Login\homepage.Designer.cs">
+      <DependentUpon>homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Home_and_Login\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Home_and_Login\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Home_and_Login\Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Home_and_Login\Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Math\Level.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Math\Level.Designer.cs">
+      <DependentUpon>Level.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Math\math1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Math\math1.Designer.cs">
+      <DependentUpon>math1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Math\math2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Math\math2.Designer.cs">
+      <DependentUpon>math2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Math\math3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Math\math3.Designer.cs">
+      <DependentUpon>math3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Math\math4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Math\math4.Designer.cs">
+      <DependentUpon>math4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Math\math5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Math\math5.Designer.cs">
+      <DependentUpon>math5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\LevelSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\LevelSelect.Designer.cs">
+      <DependentUpon>LevelSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science1.Designer.cs">
+      <DependentUpon>Science1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\ScienceFinal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\ScienceFinal.Designer.cs">
+      <DependentUpon>ScienceFinal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science2.Designer.cs">
+      <DependentUpon>Science2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science3.Designer.cs">
+      <DependentUpon>Science3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science4.Designer.cs">
+      <DependentUpon>Science4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science5.Designer.cs">
+      <DependentUpon>Science5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science6.Designer.cs">
+      <DependentUpon>Science6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science7.Designer.cs">
+      <DependentUpon>Science7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science8.Designer.cs">
+      <DependentUpon>Science8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Science\Science9.Designer.cs">
+      <DependentUpon>Science9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Design List\Action\StoryTell\StoryForm.resx">
+      <DependentUpon>StoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Home_and_Login\classSelect.resx">
+      <DependentUpon>classSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Home_and_Login\homepage.resx">
+      <DependentUpon>homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Home_and_Login\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Home_and_Login\Profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Math\Level.resx">
+      <DependentUpon>Level.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Math\math1.resx">
+      <DependentUpon>math1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Math\math2.resx">
+      <DependentUpon>math2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Math\math3.resx">
+      <DependentUpon>math3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Math\math4.resx">
+      <DependentUpon>math4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Math\math5.resx">
+      <DependentUpon>math5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Science\LevelSelect.resx">
+      <DependentUpon>LevelSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Science\Science1.resx">
+      <DependentUpon>Science1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Science\ScienceFinal.resx">
+      <DependentUpon>ScienceFinal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Science\Science2.resx">
+      <DependentUpon>Science2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Science\Science3.resx">
+      <DependentUpon>Science3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Science\Science4.resx">
+      <DependentUpon>Science4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Science\Science5.resx">
+      <DependentUpon>Science5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Science\Science6.resx">
+      <DependentUpon>Science6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Science\Science7.resx">
+      <DependentUpon>Science7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Science\Science8.resx">
+      <DependentUpon>Science8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Science\Science9.resx">
+      <DependentUpon>Science9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="obj\Release\StudentApps.csproj.CoreCompileInputs.cache" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Design List\Materi\Science\Science.csproj" />
+    <Content Include="Resources\117685-OPRFBM-7501.png" />
+    <Content Include="Resources\Book.png" />
+    <Content Include="Resources\ButtonDifabel.png" />
+    <Content Include="Resources\ButtonDifabel_hover.png" />
+    <Content Include="Resources\ButtonPG.png" />
+    <Content Include="Resources\ButtonPG_hover.png" />
+    <Content Include="Resources\ButtonTkA.png" />
+    <Content Include="Resources\ButtonTkA_hover.png" />
+    <Content Include="Resources\ButtonTkB.png" />
+    <Content Include="Resources\ButtonTkB_hover.png" />
+    <Content Include="Resources\button_Art - Copy.png" />
+    <Content Include="Resources\button_Art.png" />
+    <Content Include="Resources\ClassRoom.png" />
+    <Content Include="Resources\ClassSelect.png" />
+    <Content Include="Resources\FacilityButton.png" />
+    <Content Include="Resources\FacilityButton_hover.png" />
+    <Content Include="Resources\finebutton.png" />
+    <Content Include="Resources\homebutton.png" />
+    <Content Include="Resources\HomeScreen.png" />
+    <None Include="Resources\wildtextures-old-paper-texture-3.jpg" />
+    <None Include="Resources\pict1.png" />
+    <None Include="Resources\muted.png" />
+    <None Include="Resources\muted %281%29.png" />
+    <None Include="Resources\microphone.png" />
+    <None Include="Resources\microphone %281%29.png" />
+    <None Include="Resources\maxresdefault.jpg" />
+    <None Include="Resources\Image1.bmp" />
+    <Content Include="Resources\LoginButton.png" />
+    <Content Include="Resources\LoginButton_hover.png" />
+    <Content Include="Resources\logoutbutton.png" />
+    <Content Include="Resources\mathbutton.png" />
+    <Content Include="Resources\newsbutton.png" />
+    <Content Include="Resources\newsbutton_hover.png" />
+    <Content Include="Resources\profilebutton.png" />
+    <Content Include="Resources\progressbar100.png" />
+    <Content Include="Resources\progressbar25.png" />
+    <Content Include="Resources\progressbar50.png" />
+    <Content Include="Resources\progressbar75.png" />
+    <Content Include="Resources\registerbutton.png" />
+    <Content Include="Resources\registerbutton_hover.png" />
+    <Content Include="Resources\roughbutton.png" />
+    <Content Include="Resources\sciencebutton.png" />
+    <Content Include="Resources\trophy1.png" />
+    <Content Include="Resources\trophy4.png" />
+    <Content Include="Resources\tropy2.png" />
+    <Content Include="Resources\tropy3.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
