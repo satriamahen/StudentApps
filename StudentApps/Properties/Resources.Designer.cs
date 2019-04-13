@@ -73,9 +73,99 @@ namespace StudentApps.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _371a34dc1f1179cfe8d993da85cc7eb3 {
+            get {
+                object obj = ResourceManager.GetObject("371a34dc1f1179cfe8d993da85cc7eb3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _441a940a6e1c7fd58b3eeaac1820ab27 {
+            get {
+                object obj = ResourceManager.GetObject("441a940a6e1c7fd58b3eeaac1820ab27", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5a24aa34634e38_1605904215123523084068 {
+            get {
+                object obj = ResourceManager.GetObject("5a24aa34634e38.1605904215123523084068", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5a384c3c575ea6_3483798615136389723579 {
+            get {
+                object obj = ResourceManager.GetObject("5a384c3c575ea6.3483798615136389723579", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _77_778037_cute_kids_png_hd_cute_pirate_wall_clock {
+            get {
+                object obj = ResourceManager.GetObject("77-778037_cute-kids-png-hd-cute-pirate-wall-clock", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arrow {
+            get {
+                object obj = ResourceManager.GetObject("arrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bikek {
+            get {
+                object obj = ResourceManager.GetObject("bikek", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bikek1 {
+            get {
+                object obj = ResourceManager.GetObject("bikek1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Book {
             get {
                 object obj = ResourceManager.GetObject("Book", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BookPolos {
+            get {
+                object obj = ResourceManager.GetObject("BookPolos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +186,26 @@ namespace StudentApps.Properties {
         internal static System.Drawing.Bitmap button_Art___Copy {
             get {
                 object obj = ResourceManager.GetObject("button_Art___Copy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap button_Art_hover {
+            get {
+                object obj = ResourceManager.GetObject("button_Art_hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap button_Art1 {
+            get {
+                object obj = ResourceManager.GetObject("button_Art1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,6 +293,16 @@ namespace StudentApps.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap c1b018a55d988f3e8884a730d8f49103 {
+            get {
+                object obj = ResourceManager.GetObject("c1b018a55d988f3e8884a730d8f49103", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ClassRoom {
             get {
                 object obj = ResourceManager.GetObject("ClassRoom", resourceCulture);
@@ -196,6 +316,26 @@ namespace StudentApps.Properties {
         internal static System.Drawing.Bitmap ClassSelect {
             get {
                 object obj = ResourceManager.GetObject("ClassSelect", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ebokepedbert5 {
+            get {
+                object obj = ResourceManager.GetObject("ebokepedbert5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ecdd55129f7601a64413326330763405 {
+            get {
+                object obj = ResourceManager.GetObject("ecdd55129f7601a64413326330763405", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,6 +373,16 @@ namespace StudentApps.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap galloping {
+            get {
+                object obj = ResourceManager.GetObject("galloping", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap homebutton {
             get {
                 object obj = ResourceManager.GetObject("homebutton", resourceCulture);
@@ -263,6 +413,123 @@ namespace StudentApps.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap jump {
+            get {
+                object obj = ResourceManager.GetObject("jump", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap jump1 {
+            get {
+                object obj = ResourceManager.GetObject("jump1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_drawing_arrow_sketch_5af2b6202f3811_6707595815258557761934 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-drawing-arrow-sketch-5af2b6202f3811.6707595815258557761934", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_octopus_cartoon_clip_art_pirate_octopus_5a7da2123a40d1_1125404515181829302386 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-octopus-cartoon-clip-art-pirate-octopus-5a7da2123a40d1.112540451518182930" +
+                        "2386", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_paper_sticker_unicorn_wall_decal_pastel_unicornio_5ac09b56be30f4_9440164115225721187791 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-paper-sticker-unicorn-wall-decal-pastel-unicornio-5ac09b56be30f4.94401641" +
+                        "15225721187791", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_parrot_piracy_royalty_free_clip_art_knife_parrot_5a97e9b47b17d0_4553786615199052045042 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-parrot-piracy-royalty-free-clip-art-knife-parrot-5a97e9b47b17d0.455378661" +
+                        "5199052045042", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_parrot_royalty_free_cartoon_5ae5d719b9b788_5167921915250122497607 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-parrot-royalty-free-cartoon-5ae5d719b9b788.5167921915250122497607", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_pirate_parrot_piracy_pirate_party_clip_art_pirate_parrot_5ac498ce4abd52_5630165315228336143061 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-pirate-parrot-piracy-pirate-party-clip-art-pirate-parrot-5ac498ce4abd52.5" +
+                        "630165315228336143061", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_pirate_parrot_royalty_free_cartoon_logo_5ad7685951a7e7_2498644415240663933345 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-pirate-parrot-royalty-free-cartoon-logo-5ad7685951a7e7.249864441524066393" +
+                        "3345", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_skull_and_crossbones_piracy_human_skull_symbolism_5aea012f812a78_2661145415252851675291 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-skull-and-crossbones-piracy-human-skull-symbolism-5aea012f812a78.26611454" +
+                        "15252851675291", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_skull_bones_piracy_skull_and_crossbones_clip_art_pirate_5ab5ef7f19ba46_0351297215218727671054 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-skull-bones-piracy-skull-and-crossbones-clip-art-pirate-5ab5ef7f19ba46.03" +
+                        "51297215218727671054", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LoginButton {
             get {
                 object obj = ResourceManager.GetObject("LoginButton", resourceCulture);
@@ -286,6 +553,36 @@ namespace StudentApps.Properties {
         internal static System.Drawing.Bitmap logoutbutton {
             get {
                 object obj = ResourceManager.GetObject("logoutbutton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lompat_jauh {
+            get {
+                object obj = ResourceManager.GetObject("lompat-jauh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap longjump {
+            get {
+                object obj = ResourceManager.GetObject("longjump", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap longjump1 {
+            get {
+                object obj = ResourceManager.GetObject("longjump1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -463,9 +760,49 @@ namespace StudentApps.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap run {
+            get {
+                object obj = ResourceManager.GetObject("run", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap run1 {
+            get {
+                object obj = ResourceManager.GetObject("run1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sciencebutton {
             get {
                 object obj = ResourceManager.GetObject("sciencebutton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap skip {
+            get {
+                object obj = ResourceManager.GetObject("skip", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap skip1 {
+            get {
+                object obj = ResourceManager.GetObject("skip1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -516,6 +853,16 @@ namespace StudentApps.Properties {
         internal static System.Drawing.Bitmap wildtextures_old_paper_texture_3 {
             get {
                 object obj = ResourceManager.GetObject("wildtextures_old_paper_texture_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WoodBackground {
+            get {
+                object obj = ResourceManager.GetObject("WoodBackground", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -76,6 +76,42 @@
     <Compile Include="Design List\Home_and_Login\Profile.Designer.cs">
       <DependentUpon>Profile.cs</DependentUpon>
     </Compile>
+    <Compile Include="Design List\Materi\Gross\Gross5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Gross\Gross5.Designer.cs">
+      <DependentUpon>Gross5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Gross\Level.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Gross\Level.Designer.cs">
+      <DependentUpon>Level.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Gross\Gross1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Gross\Gross1.Designer.cs">
+      <DependentUpon>Gross1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Gross\Gross2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Gross\Gross2.Designer.cs">
+      <DependentUpon>Gross2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Gross\Gross3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Gross\Gross3.Designer.cs">
+      <DependentUpon>Gross3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\Materi\Gross\Gross4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\Materi\Gross\Gross4.Designer.cs">
+      <DependentUpon>Gross4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Design List\Materi\Math\Level.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +168,24 @@
     <EmbeddedResource Include="Design List\Home_and_Login\Profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Gross\Gross1.resx">
+      <DependentUpon>Gross1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Gross\Gross2.resx">
+      <DependentUpon>Gross2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Gross\Gross3.resx">
+      <DependentUpon>Gross3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Gross\Gross4.resx">
+      <DependentUpon>Gross4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Gross\Gross5.resx">
+      <DependentUpon>Gross5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\Materi\Gross\Level.resx">
+      <DependentUpon>Level.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Design List\Materi\Math\Level.resx">
       <DependentUpon>Level.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,7 +234,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\117685-OPRFBM-7501.png" />
+    <None Include="Resources\WoodBackground.jpg" />
+    <None Include="Resources\5a24aa34634e38.1605904215123523084068.png" />
+    <None Include="Resources\5a384c3c575ea6.3483798615136389723579.png" />
+    <None Include="Resources\77-778037_cute-kids-png-hd-cute-pirate-wall-clock.png" />
+    <None Include="Resources\371a34dc1f1179cfe8d993da85cc7eb3.png" />
+    <None Include="Resources\441a940a6e1c7fd58b3eeaac1820ab27.png" />
+    <None Include="Resources\arrow.png" />
+    <None Include="Resources\bikek.png" />
+    <None Include="Resources\bikek1.PNG" />
     <Content Include="Resources\Book.png" />
+    <None Include="Resources\BookPolos.png" />
     <Content Include="Resources\ButtonDifabel.png" />
     <Content Include="Resources\ButtonDifabel_hover.png" />
     <Content Include="Resources\ButtonPG.png" />
@@ -191,11 +255,17 @@
     <Content Include="Resources\ButtonTkB_hover.png" />
     <Content Include="Resources\button_Art - Copy.png" />
     <Content Include="Resources\button_Art.png" />
+    <None Include="Resources\button_Art1.png" />
+    <None Include="Resources\button_Art_hover.png" />
+    <None Include="Resources\c1b018a55d988f3e8884a730d8f49103.png" />
     <Content Include="Resources\ClassRoom.png" />
     <Content Include="Resources\ClassSelect.png" />
+    <None Include="Resources\ebokepedbert5.jpg" />
+    <None Include="Resources\ecdd55129f7601a64413326330763405.jpg" />
     <Content Include="Resources\FacilityButton.png" />
     <Content Include="Resources\FacilityButton_hover.png" />
     <Content Include="Resources\finebutton.png" />
+    <None Include="Resources\galloping.PNG" />
     <Content Include="Resources\homebutton.png" />
     <Content Include="Resources\HomeScreen.png" />
     <None Include="Resources\wildtextures-old-paper-texture-3.jpg" />
@@ -206,9 +276,23 @@
     <None Include="Resources\microphone %281%29.png" />
     <None Include="Resources\maxresdefault.jpg" />
     <None Include="Resources\Image1.bmp" />
+    <None Include="Resources\jump.PNG" />
+    <None Include="Resources\jump1.PNG" />
+    <None Include="Resources\kisspng-drawing-arrow-sketch-5af2b6202f3811.6707595815258557761934.png" />
+    <None Include="Resources\kisspng-octopus-cartoon-clip-art-pirate-octopus-5a7da2123a40d1.1125404515181829302386.png" />
+    <None Include="Resources\kisspng-paper-sticker-unicorn-wall-decal-pastel-unicornio-5ac09b56be30f4.9440164115225721187791.png" />
+    <None Include="Resources\kisspng-parrot-piracy-royalty-free-clip-art-knife-parrot-5a97e9b47b17d0.4553786615199052045042.png" />
+    <None Include="Resources\kisspng-parrot-royalty-free-cartoon-5ae5d719b9b788.5167921915250122497607.png" />
+    <None Include="Resources\kisspng-pirate-parrot-piracy-pirate-party-clip-art-pirate-parrot-5ac498ce4abd52.5630165315228336143061.png" />
+    <None Include="Resources\kisspng-pirate-parrot-royalty-free-cartoon-logo-5ad7685951a7e7.2498644415240663933345.png" />
+    <None Include="Resources\kisspng-skull-and-crossbones-piracy-human-skull-symbolism-5aea012f812a78.2661145415252851675291.png" />
+    <None Include="Resources\kisspng-skull-bones-piracy-skull-and-crossbones-clip-art-pirate-5ab5ef7f19ba46.0351297215218727671054.png" />
     <Content Include="Resources\LoginButton.png" />
     <Content Include="Resources\LoginButton_hover.png" />
     <Content Include="Resources\logoutbutton.png" />
+    <None Include="Resources\lompat-jauh.jpg" />
+    <None Include="Resources\longjump.PNG" />
+    <None Include="Resources\longjump1.PNG" />
     <Content Include="Resources\mathbutton.png" />
     <Content Include="Resources\newsbutton.png" />
     <Content Include="Resources\newsbutton_hover.png" />
@@ -220,7 +304,11 @@
     <Content Include="Resources\registerbutton.png" />
     <Content Include="Resources\registerbutton_hover.png" />
     <Content Include="Resources\roughbutton.png" />
+    <None Include="Resources\run.PNG" />
+    <None Include="Resources\run1.PNG" />
     <Content Include="Resources\sciencebutton.png" />
+    <None Include="Resources\skip.PNG" />
+    <None Include="Resources\skip1.PNG" />
     <Content Include="Resources\trophy1.png" />
     <Content Include="Resources\trophy4.png" />
     <Content Include="Resources\tropy2.png" />
