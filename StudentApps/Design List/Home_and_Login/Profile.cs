@@ -14,6 +14,8 @@ namespace StudentApps
     {
         bool goal1, goal2, goal3, goal4 = false;
 
+        bool pulldown1Open = false;
+
         public Profile()
         {
             InitializeComponent();
@@ -39,6 +41,22 @@ namespace StudentApps
             this.Hide();
             Design_List.Materi.Gross.Form1 level = new Design_List.Materi.Gross.Form1();
             level.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            if(pulldown1Open == false)
+            {
+                button11.Visible = true;
+                button12.Visible = true;
+                pulldown1Open = true;
+            }
+            else
+            {
+                button11.Visible = false;
+                button12.Visible = false;
+                pulldown1Open = false;
+            }
         }
 
         private void button2_MouseUp(object sender, MouseEventArgs e)
