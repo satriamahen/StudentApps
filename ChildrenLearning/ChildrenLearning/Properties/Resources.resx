@@ -157,4 +157,46 @@
   <data name="DaftarHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DaftarHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Book" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="finebutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\finebutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="homebutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\homebutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoutbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoutbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mathbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mathbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progressbar25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progressbar25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="roughbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\roughbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sciencebutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sciencebutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trophy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trophy1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trophy4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trophy4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tropy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tropy2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tropy3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tropy3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

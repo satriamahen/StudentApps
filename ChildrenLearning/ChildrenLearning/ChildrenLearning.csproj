@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="General\Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Profile.designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
     <Compile Include="General\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="General\Profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="General\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -136,6 +145,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\DaftarHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\progressbar25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roughbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sciencebutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finebutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homebutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoutbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mathbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tropy3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tropy2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

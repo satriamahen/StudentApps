@@ -57,6 +57,7 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.MouseEnter += new System.EventHandler(this.button1_MouseEnter);
             this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
+            this.button1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
             // button2
             // 
@@ -75,6 +76,7 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.MouseEnter += new System.EventHandler(this.button2_MouseEnter);
             this.button2.MouseLeave += new System.EventHandler(this.button2_MouseLeave);
+            this.button2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
             // button3
             // 
@@ -93,6 +95,7 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.MouseEnter += new System.EventHandler(this.button3_MouseEnter);
             this.button3.MouseLeave += new System.EventHandler(this.button3_MouseLeave);
+            this.button3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
             // button4
             // 
@@ -111,6 +114,7 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.MouseEnter += new System.EventHandler(this.button4_MouseEnter);
             this.button4.MouseLeave += new System.EventHandler(this.button4_MouseLeave);
+            this.button4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
             // button5
             // 
@@ -129,6 +133,7 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.MouseEnter += new System.EventHandler(this.button5_MouseEnter);
             this.button5.MouseLeave += new System.EventHandler(this.button5_MouseLeave);
+            this.button5.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
             // button6
             // 
@@ -147,6 +152,7 @@
             this.button6.UseVisualStyleBackColor = false;
             this.button6.MouseEnter += new System.EventHandler(this.button6_MouseEnter);
             this.button6.MouseLeave += new System.EventHandler(this.button6_MouseLeave);
+            this.button6.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
             // button7
             // 
@@ -165,6 +171,7 @@
             this.button7.UseVisualStyleBackColor = false;
             this.button7.MouseEnter += new System.EventHandler(this.button7_MouseEnter);
             this.button7.MouseLeave += new System.EventHandler(this.button7_MouseLeave);
+            this.button7.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
             // button8
             // 
@@ -183,6 +190,7 @@
             this.button8.UseVisualStyleBackColor = false;
             this.button8.MouseEnter += new System.EventHandler(this.button8_MouseEnter);
             this.button8.MouseLeave += new System.EventHandler(this.button8_MouseLeave);
+            this.button8.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
             // button9
             // 
@@ -201,6 +209,7 @@
             this.button9.UseVisualStyleBackColor = false;
             this.button9.MouseEnter += new System.EventHandler(this.button9_MouseEnter);
             this.button9.MouseLeave += new System.EventHandler(this.button9_MouseLeave);
+            this.button9.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
             // button10
             // 
@@ -219,6 +228,7 @@
             this.button10.UseVisualStyleBackColor = false;
             this.button10.MouseEnter += new System.EventHandler(this.button10_MouseEnter);
             this.button10.MouseLeave += new System.EventHandler(this.button10_MouseLeave);
+            this.button10.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
             // Login
             // 
