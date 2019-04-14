@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StudentApps;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -64,7 +65,11 @@ namespace WindowsFormsApp5
 
         private void button6_Click(object sender, EventArgs e)
         {
+            this.Hide();
 
+            Profile Menu = new Profile();
+
+            Menu.Show();
         }
 
 
