@@ -840,6 +840,46 @@ namespace StudentApps.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Pulldown_Icon_Child {
+            get {
+                object obj = ResourceManager.GetObject("Pulldown_Icon_Child", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pulldown_Icon_Child_hover {
+            get {
+                object obj = ResourceManager.GetObject("Pulldown_Icon_Child_hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pulldown_Icon_Parent {
+            get {
+                object obj = ResourceManager.GetObject("Pulldown_Icon_Parent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pulldown_Icon_Parent_clicked {
+            get {
+                object obj = ResourceManager.GetObject("Pulldown_Icon_Parent_clicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap registerbutton {
             get {
                 object obj = ResourceManager.GetObject("registerbutton", resourceCulture);

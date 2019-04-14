@@ -314,6 +314,10 @@
     <Content Include="Resources\progressbar25.png" />
     <Content Include="Resources\progressbar50.png" />
     <Content Include="Resources\progressbar75.png" />
+    <None Include="Resources\Pulldown_Icon_Child.png" />
+    <None Include="Resources\Pulldown_Icon_Child_hover.png" />
+    <None Include="Resources\Pulldown_Icon_Parent.png" />
+    <None Include="Resources\Pulldown_Icon_Parent_clicked.png" />
     <Content Include="Resources\registerbutton.png" />
     <Content Include="Resources\registerbutton_hover.png" />
     <Content Include="Resources\roughbutton.png" />

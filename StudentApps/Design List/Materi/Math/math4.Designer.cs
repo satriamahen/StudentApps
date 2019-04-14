@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp5
+﻿namespace StudentApps
 {
     partial class math4
     {

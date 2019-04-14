@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WindowsFormsApp5;
 
 namespace StudentApps
 {
@@ -15,7 +14,7 @@ namespace StudentApps
     {
         bool goal1, goal2, goal3, goal4 = false;
 
-        bool pulldown1Open = false;
+        bool pulldown1Open, pulldown2Open = false;
 
         public Profile()
         {
@@ -55,12 +54,50 @@ namespace StudentApps
                 button11.Visible = true;
                 button12.Visible = true;
                 pulldown1Open = true;
+                button10.BackgroundImage = Properties.Resources.Pulldown_Icon_Parent_clicked;
             }
             else
             {
                 button11.Visible = false;
                 button12.Visible = false;
                 pulldown1Open = false;
+                button10.BackgroundImage = Properties.Resources.Pulldown_Icon_Parent;
+            }
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Design_List.Materi.Gross.Form1 level = new Design_List.Materi.Gross.Form1();
+            level.Show();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Level lvlmath = new Level();
+            lvlmath.Show();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            if(pulldown2Open == false)
+            {
+                button13.Visible = true;
+                button14.Visible = true;
+                button16.Visible = true;
+                button17.Visible = true;
+                pulldown2Open = true;
+                button15.BackgroundImage = Properties.Resources.Pulldown_Icon_Parent_clicked;
+            }
+            else
+            {
+                button13.Visible = false;
+                button14.Visible = false;
+                button16.Visible = false;
+                button17.Visible = false;
+                pulldown2Open = false;
+                button15.BackgroundImage = Properties.Resources.Pulldown_Icon_Parent;
             }
         }
 
