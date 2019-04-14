@@ -79,6 +79,13 @@ namespace StudentApps
             lvlmath.Show();
         }
 
+        private void button9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            HomePage homePage = new HomePage();
+            homePage.Show();
+        }
+
         private void button15_Click(object sender, EventArgs e)
         {
             if(pulldown2Open == false)

@@ -61,5 +61,25 @@ namespace StudentApps.Design_List.Materi.Gross
 
             Menu.Show();
         }
+
+        
+        private void button7_MouseEnter(object sender, EventArgs e)
+        {
+            button7.BackgroundImage = Properties.Resources.button_Art_hover;
+        }
+
+        private void button7_MouseLeave(object sender, EventArgs e)
+        {
+            button7.BackgroundImage = Properties.Resources.button_Art;
+        }
+
+        private void button7_MouseClick(object sender, MouseEventArgs e)
+        {
+            this.Hide();
+
+            Profile Menu = new Profile();
+
+            Menu.Show();
+        }
     }
 }

@@ -95,11 +95,15 @@
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.ForeColor = System.Drawing.Color.Transparent;
             this.button6.Location = new System.Drawing.Point(12, 12);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(62, 58);
             this.button6.TabIndex = 7;
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
+            this.button6.MouseEnter += new System.EventHandler(this.button6_MouseEnter);
+            this.button6.MouseLeave += new System.EventHandler(this.button6_MouseLeave);
             // 
             // label2
             // 
@@ -109,7 +113,7 @@
             this.label2.Font = new System.Drawing.Font("Myriad Pro Light", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(276, 60);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(458, 49);
+            this.label2.Size = new System.Drawing.Size(365, 39);
             this.label2.TabIndex = 8;
             this.label2.Text = "I know you can solve this ";
             // 
@@ -404,7 +408,7 @@
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(884, 324);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 75);
+            this.textBox1.Size = new System.Drawing.Size(100, 62);
             this.textBox1.TabIndex = 34;
             // 
             // button3
