@@ -231,6 +231,7 @@
   <ItemGroup>
     <Folder Include="bin\Debug\" />
     <Folder Include="bin\Release\" />
+    <Folder Include="Design List\Action\Game Balok\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\117685-OPRFBM-7501.png" />
