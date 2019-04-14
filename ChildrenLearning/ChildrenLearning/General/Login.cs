@@ -12,6 +12,9 @@ namespace ChildrenLearning
 {
     public partial class Login : Form
     {
+
+        Profile profile = new Profile();
+
         public Login()
         {
             InitializeComponent();
@@ -115,6 +118,12 @@ namespace ChildrenLearning
         private void button10_MouseLeave(object sender, EventArgs e)
         {
             button10.BackgroundImage = Properties.Resources.User;
+        }
+
+        private void button1_MouseUp(object sender, MouseEventArgs e)
+        {
+            this.Hide();
+            profile.Show();
         }
     }
 }
