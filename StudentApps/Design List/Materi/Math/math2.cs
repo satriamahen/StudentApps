@@ -37,5 +37,15 @@ namespace StudentApps
                 Menu.Show();
             }
         }
+
+        private void button1_MouseEnter(object sender, EventArgs e)
+        {
+            button1.BackgroundImage = Properties.Resources.button_Art_hover;
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            button1.BackgroundImage = Properties.Resources.button_Art;
+        }
     }
 }

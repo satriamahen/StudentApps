@@ -19,15 +19,6 @@ namespace StudentApps
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-
-            Level Menu = new Level();
-
-            Menu.Show();
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
             if (textBox1.Text == "5" && textBox2.Text == "2")
             {
                 this.Hide();
@@ -37,5 +28,27 @@ namespace StudentApps
                 Menu.Show();
             }
         }
-    }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+            {
+                this.Hide();
+
+                Level Menu = new Level();
+
+                Menu.Show();
+            }
+        }
+
+        private void button6_MouseEnter(object sender, EventArgs e)
+        {
+            button6.BackgroundImage = Properties.Resources.button_Art_hover;
+        }
+
+        private void button6_MouseLeave(object sender, EventArgs e)
+        {
+            button6.BackgroundImage = Properties.Resources.button_Art;
+        }
+    }   
 }
