@@ -1,6 +1,6 @@
 ﻿namespace StudentApps
 {
-    partial class Form3
+    partial class Science2
     {
         /// <summary>
         /// Required designer variable.

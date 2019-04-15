@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace StudentApps
 {
-    public partial class StudentApps10 : Form
+    public partial class ScienceFinal : Form
     {
-        public StudentApps10()
+        public ScienceFinal()
         {
             InitializeComponent();
         }
@@ -21,7 +21,7 @@ namespace StudentApps
         {
             this.Hide();
 
-            StudentApps9 Menu = new StudentApps9();
+            LevelSelect Menu = new LevelSelect();
 
             Menu.Show();
         }

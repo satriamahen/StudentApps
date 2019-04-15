@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Science
+namespace StudentApps
 {
     public partial class Science8 : Form
     {
@@ -21,7 +21,7 @@ namespace Science
         {
             this.Hide();
 
-            Science10 Menu = new Science10();
+            ScienceFinal Menu = new ScienceFinal();
 
             Menu.Show();
         }

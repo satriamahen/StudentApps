@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Science
+namespace StudentApps
 {
     public partial class LevelSelect : Form
     {
@@ -21,7 +21,7 @@ namespace Science
         {
             this.Hide();
 
-            Science1 Menu = new Form2();
+            Science1 Menu = new Science1();
 
             Menu.Show();
         }
@@ -30,16 +30,16 @@ namespace Science
         {
             this.Hide();
 
-            Form4 Menu = new Form4();
+            //Science.Science4 Menu = Science.Science4();
 
-            Menu.Show();
+            //Menu.Show();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Hide();
 
-            Science5 Menu = new Science5();
+            Science.Science5 Menu = new Science.Science5();
 
             Menu.Show();
         }
@@ -48,7 +48,7 @@ namespace Science
         {
             this.Hide();
 
-            Science7 Menu = new Science7();
+            Science.Science7 Menu = new Science.Science7();
 
             Menu.Show();
         }
@@ -57,7 +57,7 @@ namespace Science
         {
             this.Hide();
 
-            Science10 Menu = new Science10();
+            Science.Science9 Menu = new Science.Science9();
 
             Menu.Show();
         }

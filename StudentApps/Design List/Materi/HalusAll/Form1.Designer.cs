@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp8
+﻿namespace StudentApps
 {
     partial class Form1
     {

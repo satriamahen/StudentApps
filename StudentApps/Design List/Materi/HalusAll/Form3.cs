@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WMPLib;
 
-namespace WindowsFormsApp8
+namespace StudentApps
 {
     public partial class Form3 : Form
     {

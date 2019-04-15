@@ -35,7 +35,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.backbutton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -99,23 +99,23 @@
             this.button4.Text = "Dog";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // backbutton
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = global::StudentApps.Properties.Resources.button_Art;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(738, 595);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 85);
-            this.button1.TabIndex = 27;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            this.button1.MouseEnter += new System.EventHandler(this.button1_MouseEnter);
-            this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
+            this.backbutton.BackColor = System.Drawing.Color.Transparent;
+            this.backbutton.BackgroundImage = global::StudentApps.Properties.Resources.button_Art;
+            this.backbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.backbutton.FlatAppearance.BorderSize = 0;
+            this.backbutton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.backbutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.backbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.backbutton.Location = new System.Drawing.Point(738, 595);
+            this.backbutton.Name = "backbutton";
+            this.backbutton.Size = new System.Drawing.Size(90, 85);
+            this.backbutton.TabIndex = 27;
+            this.backbutton.UseVisualStyleBackColor = false;
+            this.backbutton.Click += new System.EventHandler(this.button1_Click);
+            this.backbutton.MouseEnter += new System.EventHandler(this.button1_MouseEnter);
+            this.backbutton.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
             // 
             // Science1
             // 
@@ -124,7 +124,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1008, 729);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.backbutton);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -147,6 +147,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button backbutton;
     }
 }

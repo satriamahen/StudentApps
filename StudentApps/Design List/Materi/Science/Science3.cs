@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace StudentApps
 {
-    public partial class Form4 : Form
+    public partial class Science3 : Form
     {
-        public Form4()
+        public Science3()
         {
             InitializeComponent();
         }
@@ -21,7 +21,7 @@ namespace StudentApps
         {
             this.Hide();
 
-            StudentApps4 Menu = new StudentApps4();
+            Science.Science4 Menu = new Science.Science4();
 
             Menu.Show();
         }
@@ -38,12 +38,12 @@ namespace StudentApps
 
         private void button1_MouseEnter(object sender, EventArgs e)
         {
-            button1.BackgroundImage = StudentApps.Properties.Resources.button_Art___Copy;
+            this.button1.BackgroundImage = StudentApps.Properties.Resources.button_Art___Copy;
         }
 
         private void button1_MouseLeave(object sender, EventArgs e)
         {
-            button1.BackgroundImage = StudentApps.Properties.Resources.button_Art;
+            this.button1.BackgroundImage = StudentApps.Properties.Resources.button_Art;
         }
 
         private void button1_Click(object sender, EventArgs e)

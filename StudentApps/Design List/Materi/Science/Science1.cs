@@ -12,7 +12,7 @@ namespace StudentApps
 {
     public partial class Science1 : Form
     {
-        public void Science1()
+        public Science1()
         {
             InitializeComponent();
         }
@@ -21,7 +21,7 @@ namespace StudentApps
         {
             this.Hide();
 
-            Form3 Menu = new Form3();
+            Science2 Menu = new Science2();
 
             Menu.Show();
         }
@@ -29,12 +29,12 @@ namespace StudentApps
 
         private void button1_MouseEnter(object sender, EventArgs e)
         {
-            button1.BackgroundImage = StudentApps.Properties.Resources.button_Art___Copy;
+            backbutton.BackgroundImage = StudentApps.Properties.Resources.button_Art___Copy;
         }
 
         private void button1_MouseLeave(object sender, EventArgs e)
         {
-            button1.BackgroundImage = StudentApps.Properties.Resources.button_Art;
+            backbutton.BackgroundImage = StudentApps.Properties.Resources.button_Art;
         }
 
         private void button1_Click(object sender, EventArgs e)

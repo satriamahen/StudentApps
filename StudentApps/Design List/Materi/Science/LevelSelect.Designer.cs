@@ -1,4 +1,4 @@
-﻿namespace Science
+﻿namespace StudentApps
 {
     partial class LevelSelect
     {

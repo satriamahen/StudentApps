@@ -86,6 +86,13 @@ namespace StudentApps
             homePage.Show();
         }
 
+        private void button13_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LevelSelect levelselect = new LevelSelect();
+            levelselect.Show();
+        }
+
         private void button15_Click(object sender, EventArgs e)
         {
             if(pulldown2Open == false)

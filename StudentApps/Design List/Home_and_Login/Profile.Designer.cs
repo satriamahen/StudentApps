@@ -217,6 +217,7 @@
             this.button13.Text = "Science";
             this.button13.UseVisualStyleBackColor = false;
             this.button13.Visible = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button14
             // 
