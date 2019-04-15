@@ -21,7 +21,7 @@ namespace StudentApps
         {
             this.Hide();
 
-            Form4 Menu = new Form4();
+            Science3 Menu = new Science3();
 
             Menu.Show();
         }

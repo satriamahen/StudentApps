@@ -39,7 +39,7 @@ namespace StudentApps
         {
             this.Hide();
 
-            Science.Science5 Menu = new Science.Science5();
+            Science5 Menu = new Science5();
 
             Menu.Show();
         }
@@ -48,7 +48,7 @@ namespace StudentApps
         {
             this.Hide();
 
-            Science.Science7 Menu = new Science.Science7();
+            Science7 Menu = new Science7();
 
             Menu.Show();
         }
@@ -57,7 +57,7 @@ namespace StudentApps
         {
             this.Hide();
 
-            Science.Science9 Menu = new Science.Science9();
+            Science9 Menu = new Science9();
 
             Menu.Show();
         }
