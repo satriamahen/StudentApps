@@ -100,6 +100,13 @@ namespace StudentApps
             story.Show();
         }
 
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            balok balok = new balok();
+            balok.Show();
+        }
+
         private void button7_Click(object sender, EventArgs e)
         {
             if(pulldon3Open == false)

@@ -1,6 +1,6 @@
-﻿namespace WindowsFormsApp5
+﻿namespace StudentApps
 {
-    partial class Form1
+    partial class balok
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // balok
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1006, 721);
             this.DoubleBuffered = true;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "balok";
+            this.Text = "balok";
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.recmousedown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.recmousemove);
             this.ResumeLayout(false);

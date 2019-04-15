@@ -55,5 +55,19 @@ namespace StudentApps
         {
             button3.BackgroundImage = Properties.Resources.Berita;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            news news = new news();
+            news.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            regis regis = new regis();
+            regis.Show();
+        }
     }
 }

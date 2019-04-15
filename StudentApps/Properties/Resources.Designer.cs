@@ -243,9 +243,29 @@ namespace StudentApps.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap button_Art__2_ {
+            get {
+                object obj = ResourceManager.GetObject("button_Art__2_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap button_Art_hover {
             get {
                 object obj = ResourceManager.GetObject("button_Art_hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap button_Art_hover__2_ {
+            get {
+                object obj = ResourceManager.GetObject("button_Art_hover__2_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -446,6 +466,16 @@ namespace StudentApps.Properties {
         internal static System.Drawing.Bitmap FacilityButton_hover {
             get {
                 object obj = ResourceManager.GetObject("FacilityButton_hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap facilitys {
+            get {
+                object obj = ResourceManager.GetObject("facilitys", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -770,6 +800,16 @@ namespace StudentApps.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap news {
+            get {
+                object obj = ResourceManager.GetObject("news", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap newsbutton {
             get {
                 object obj = ResourceManager.GetObject("newsbutton", resourceCulture);
@@ -783,6 +823,16 @@ namespace StudentApps.Properties {
         internal static System.Drawing.Bitmap newsbutton_hover {
             get {
                 object obj = ResourceManager.GetObject("newsbutton_hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap onlineregis {
+            get {
+                object obj = ResourceManager.GetObject("onlineregis", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

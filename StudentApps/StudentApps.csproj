@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Design List\Action\Game Balok\Form1.cs">
+    <Compile Include="Design List\Action\Game Balok\balok.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Design List\Action\Game Balok\Form1.designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Design List\Action\Game Balok\balok.designer.cs">
+      <DependentUpon>balok.cs</DependentUpon>
     </Compile>
     <Compile Include="Design List\Action\LoadingTips\Loading2.cs">
       <SubType>Form</SubType>
@@ -232,14 +232,32 @@
     <Compile Include="Design List\Materi\Science\ScienceFinal.Designer.cs">
       <DependentUpon>ScienceFinal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Design List\News_and_Register\facility.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\News_and_Register\facility.Designer.cs">
+      <DependentUpon>facility.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\News_and_Register\news.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\News_and_Register\news.Designer.cs">
+      <DependentUpon>news.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design List\News_and_Register\regis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design List\News_and_Register\regis.Designer.cs">
+      <DependentUpon>regis.cs</DependentUpon>
+    </Compile>
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScreenCapture.cs" />
-    <EmbeddedResource Include="Design List\Action\Game Balok\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Design List\Action\Game Balok\balok.resx">
+      <DependentUpon>balok.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Design List\Action\LoadingTips\Loading2.resx">
       <DependentUpon>Loading2.cs</DependentUpon>
@@ -331,6 +349,15 @@
     <EmbeddedResource Include="Design List\Materi\Science\ScienceFinal.resx">
       <DependentUpon>ScienceFinal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Design List\News_and_Register\facility.resx">
+      <DependentUpon>facility.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\News_and_Register\news.resx">
+      <DependentUpon>news.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design List\News_and_Register\regis.resx">
+      <DependentUpon>regis.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -387,13 +414,15 @@
     <Content Include="Resources\ButtonTkA_hover.png" />
     <Content Include="Resources\ButtonTkB.png" />
     <Content Include="Resources\ButtonTkB_hover.png" />
+    <None Include="Resources\button_Art %282%29.png" />
     <Content Include="Resources\button_Art - Copy.png" />
-    <Content Include="Resources\button_Art.png" />
     <None Include="Resources\button_Art1.png" />
-    <None Include="Resources\button_Art_hover.png" />
     <None Include="Resources\c1b018a55d988f3e8884a730d8f49103.png" />
     <None Include="Resources\Class.png" />
     <None Include="Resources\ClassHover.png" />
+    <None Include="Resources\button_Art.png" />
+    <None Include="Resources\button_Art_hover %282%29.png" />
+    <None Include="Resources\button_Art_hover.png" />
     <Content Include="Resources\ClassRoom.png" />
     <Content Include="Resources\ClassSelect.png" />
     <None Include="Resources\ebokepedbert5.jpg" />
@@ -402,6 +431,7 @@
     <None Include="Resources\DaftarHover.png" />
     <Content Include="Resources\FacilityButton.png" />
     <Content Include="Resources\FacilityButton_hover.png" />
+    <None Include="Resources\facilitys.png" />
     <Content Include="Resources\finebutton.png" />
     <None Include="Resources\galloping.PNG" />
     <Content Include="Resources\homebutton.png" />
@@ -435,8 +465,10 @@
     <None Include="Resources\Masuk.png" />
     <None Include="Resources\MasukHover.png" />
     <Content Include="Resources\mathbutton.png" />
+    <None Include="Resources\news.png" />
     <Content Include="Resources\newsbutton.png" />
     <Content Include="Resources\newsbutton_hover.png" />
+    <None Include="Resources\onlineregis.png" />
     <Content Include="Resources\profilebutton.png" />
     <Content Include="Resources\progressbar100.png" />
     <Content Include="Resources\progressbar25.png" />

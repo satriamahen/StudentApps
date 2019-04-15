@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Imaging;
 
-namespace WindowsFormsApp5
+namespace StudentApps
 {
-    public partial class Form1 : Form
+    public partial class balok : Form
     {
         public bool drag = false;
         int cur_x, cur_y;
@@ -38,7 +38,7 @@ namespace WindowsFormsApp5
         SolidBrush clego4 = new SolidBrush(Color.Purple);
         // ellipse = new 
 
-        public Form1()
+        public balok()
         {
             InitializeComponent();
 
@@ -72,7 +72,7 @@ namespace WindowsFormsApp5
             g.DrawImage(img, 150, 225);
             g.DrawImage(img2, 150, 325);
         }
-        private void Form1_Paint(object sender, PaintEventArgs e)
+        private void balok_Paint(object sender, PaintEventArgs e)
         {
             Graphics g = e.Graphics;
 
