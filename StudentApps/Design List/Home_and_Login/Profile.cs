@@ -14,7 +14,7 @@ namespace StudentApps
     {
         bool goal1, goal2, goal3, goal4 = false;
 
-        bool pulldown1Open, pulldown2Open = false;
+        bool pulldown1Open, pulldown2Open, pulldon3Open = false;
 
         public Profile()
         {
@@ -91,6 +91,24 @@ namespace StudentApps
             this.Hide();
             LevelSelect levelselect = new LevelSelect();
             levelselect.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            if(pulldon3Open == false)
+            {
+                button5.Visible = true;
+                button6.Visible = true;
+                button7.BackgroundImage = Properties.Resources.Pulldown_Icon_Parent_clicked;
+                pulldon3Open = true;
+            }
+            else
+            {
+                button5.Visible = false;
+                button6.Visible = false;
+                button7.BackgroundImage = Properties.Resources.Pulldown_Icon_Parent;
+                pulldon3Open = false;
+            }
         }
 
         private void button15_Click(object sender, EventArgs e)
