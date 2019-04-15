@@ -118,14 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Image1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tropy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tropy2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lompat-jauh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lompat-jauh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kisspng-pirate-parrot-royalty-free-cartoon-logo-5ad7685951a7e7.2498644415240663933345" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-pirate-parrot-royalty-free-cartoon-logo-5ad7685951a7e7.2498644415240663933345.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="button_Art_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\button_Art_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,8 +154,20 @@
   <data name="bikek" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bikek.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Masuk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Masuk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pulldown_Icon_Child" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pulldown_Icon_Child.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="roughbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\roughbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Class" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Class.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BeritaHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BeritaHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ButtonTkA_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ButtonTkA_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,14 +175,8 @@
   <data name="ButtonTkA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ButtonTkA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="WoodBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WoodBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ClassSelect" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ClassSelect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="muted" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\muted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="441a940a6e1c7fd58b3eeaac1820ab27" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\441a940a6e1c7fd58b3eeaac1820ab27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,14 +184,20 @@
   <data name="progressbar25" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\progressbar25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ButtonDifabel_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ButtonDifabel_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="WoodBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WoodBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG2_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BG2_plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="registerbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\registerbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kisspng-drawing-arrow-sketch-5af2b6202f3811.6707595815258557761934" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-drawing-arrow-sketch-5af2b6202f3811.6707595815258557761934.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DaftarHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DaftarHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="skip" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\skip.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,8 +211,8 @@
   <data name="ecdd55129f7601a64413326330763405" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ecdd55129f7601a64413326330763405.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tropy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tropy2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="run" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\run.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="profilebutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\profilebutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,17 +220,17 @@
   <data name="ButtonPG" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ButtonPG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="kisspng-parrot-piracy-royalty-free-clip-art-knife-parrot-5a97e9b47b17d0.4553786615199052045042" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kisspng-parrot-piracy-royalty-free-clip-art-knife-parrot-5a97e9b47b17d0.4553786615199052045042.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="homebutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\homebutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="77-778037_cute-kids-png-hd-cute-pirate-wall-clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\77-778037_cute-kids-png-hd-cute-pirate-wall-clock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kisspng-paper-sticker-unicorn-wall-decal-pastel-unicornio-5ac09b56be30f4.9440164115225721187791" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-paper-sticker-unicorn-wall-decal-pastel-unicornio-5ac09b56be30f4.9440164115225721187791.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bikek1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bikek1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonTkB_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonTkB_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ButtonPG_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ButtonPG_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,14 +250,14 @@
   <data name="finebutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\finebutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="run" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\run.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="kisspng-pirate-parrot-piracy-pirate-party-clip-art-pirate-parrot-5ac498ce4abd52.5630165315228336143061" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-pirate-parrot-piracy-pirate-party-clip-art-pirate-parrot-5ac498ce4abd52.5630165315228336143061.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Book" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG1_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BG1_plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jump" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jump.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -252,9 +267,6 @@
   </data>
   <data name="ButtonDifabel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ButtonDifabel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="maxresdefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\maxresdefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="button_Art1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\button_Art1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -267,6 +279,9 @@
   </data>
   <data name="kisspng-parrot-royalty-free-cartoon-5ae5d719b9b788.5167921915250122497607" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-parrot-royalty-free-cartoon-5ae5d719b9b788.5167921915250122497607.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="longjump" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\longjump.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -283,8 +298,17 @@
   <data name="LoginButton_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LoginButton_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="maxresdefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maxresdefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="sciencebutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sciencebutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG3_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BG3_plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pulldown_Icon_Parent_clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pulldown_Icon_Parent_clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LoginButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LoginButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -295,6 +319,9 @@
   <data name="371a34dc1f1179cfe8d993da85cc7eb3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\371a34dc1f1179cfe8d993da85cc7eb3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="UserHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="button_Art" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\button_Art.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -303,6 +330,9 @@
   </data>
   <data name="microphone" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\microphone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClassHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tropy3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tropy3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -316,23 +346,38 @@
   <data name="progressbar100" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\progressbar100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="77-778037_cute-kids-png-hd-cute-pirate-wall-clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\77-778037_cute-kids-png-hd-cute-pirate-wall-clock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="5a24aa34634e38.1605904215123523084068" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5a24aa34634e38.1605904215123523084068.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-parrot-piracy-royalty-free-clip-art-knife-parrot-5a97e9b47b17d0.4553786615199052045042" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-parrot-piracy-royalty-free-clip-art-knife-parrot-5a97e9b47b17d0.4553786615199052045042.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kisspng-skull-and-crossbones-piracy-human-skull-symbolism-5aea012f812a78.2661145415252851675291" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-skull-and-crossbones-piracy-human-skull-symbolism-5aea012f812a78.2661145415252851675291.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Daftar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Daftar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="trophy4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trophy4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ButtonTkB_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ButtonTkB_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="muted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kisspng-skull-bones-piracy-skull-and-crossbones-clip-art-pirate-5ab5ef7f19ba46.0351297215218727671054" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-skull-bones-piracy-skull-and-crossbones-clip-art-pirate-5ab5ef7f19ba46.0351297215218727671054.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Berita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="kisspng-octopus-cartoon-clip-art-pirate-octopus-5a7da2123a40d1.1125404515181829302386" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-octopus-cartoon-clip-art-pirate-octopus-5a7da2123a40d1.1125404515181829302386.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pulldown_Icon_Parent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pulldown_Icon_Parent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muted__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muted (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FacilityButton_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FacilityButton_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -343,70 +388,28 @@
   <data name="c1b018a55d988f3e8884a730d8f49103" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\c1b018a55d988f3e8884a730d8f49103.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="5a24aa34634e38.1605904215123523084068" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5a24aa34634e38.1605904215123523084068.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="longjump1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\longjump1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="muted__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\muted (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ButtonTkB" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ButtonTkB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BookPolos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BookPolos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Berita" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Berita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BeritaHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BeritaHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BG1_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BG1_plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BG2_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BG2_plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BG3_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BG3_plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Class" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Class.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ClassHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ClassHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Daftar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Daftar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DaftarHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DaftarHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Masuk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Masuk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="MasukHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MasukHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="User" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\User.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="UserHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\UserHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Pulldown_Icon_Child" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pulldown_Icon_Child.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="homebutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\homebutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Pulldown_Icon_Child_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pulldown_Icon_Child_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Pulldown_Icon_Parent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pulldown_Icon_Parent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BookPolos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BookPolos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Pulldown_Icon_Parent_clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pulldown_Icon_Parent_clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="longjump1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\longjump1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonDifabel_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonDifabel_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonTkB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonTkB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-482802653-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-482802653-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

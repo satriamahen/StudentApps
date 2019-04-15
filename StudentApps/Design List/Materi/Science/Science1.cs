@@ -29,7 +29,7 @@ namespace StudentApps
 
         private void button1_MouseEnter(object sender, EventArgs e)
         {
-            backbutton.BackgroundImage = StudentApps.Properties.Resources.button_Art___Copy;
+            backbutton.BackgroundImage = StudentApps.Properties.Resources.button_Art_hover;
         }
 
         private void button1_MouseLeave(object sender, EventArgs e)

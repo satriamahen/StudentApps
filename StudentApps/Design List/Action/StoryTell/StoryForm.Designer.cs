@@ -1,4 +1,4 @@
-﻿namespace StoryTell
+﻿namespace StudentApps
 {
     partial class StoryForm
     {
@@ -104,6 +104,7 @@
             this.button2.Size = new System.Drawing.Size(64, 60);
             this.button2.TabIndex = 5;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             this.button2.MouseEnter += new System.EventHandler(this.button2_MouseEnter);
             this.button2.MouseLeave += new System.EventHandler(this.button2_MouseLeave);
             // 

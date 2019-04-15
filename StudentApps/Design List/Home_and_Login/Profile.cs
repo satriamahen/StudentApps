@@ -93,6 +93,13 @@ namespace StudentApps
             levelselect.Show();
         }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            StoryForm story = new StoryForm();
+            story.Show();
+        }
+
         private void button7_Click(object sender, EventArgs e)
         {
             if(pulldon3Open == false)

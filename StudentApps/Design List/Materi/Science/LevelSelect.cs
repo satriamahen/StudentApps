@@ -30,9 +30,9 @@ namespace StudentApps
         {
             this.Hide();
 
-            //Science.Science4 Menu = Science.Science4();
+            Science4 Menu = new Science4();
 
-            //Menu.Show();
+            Menu.Show();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
@@ -69,7 +69,7 @@ namespace StudentApps
 
         private void button1_MouseEnter(object sender, EventArgs e)
         {
-            button1.BackgroundImage = StudentApps.Properties.Resources.button_Art___Copy;
+            button1.BackgroundImage = StudentApps.Properties.Resources.button_Art_hover;
         }
 
         private void button1_MouseLeave(object sender, EventArgs e)
@@ -79,7 +79,9 @@ namespace StudentApps
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Profile profile = new Profile();
+            profile.Show();
         }
     }
 }

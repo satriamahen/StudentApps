@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace StoryTell
+namespace StudentApps
 {
     public partial class StoryForm : Form
     {
@@ -66,7 +66,7 @@ namespace StoryTell
 
         private void button2_MouseEnter(object sender, EventArgs e)
         {
-            button2.BackgroundImage = StudentApps.Properties.Resources.button_Art___Copy;
+            button2.BackgroundImage = StudentApps.Properties.Resources.button_Art_hover;
         }
 
         private void button2_MouseLeave(object sender, EventArgs e)
@@ -77,6 +77,13 @@ namespace StoryTell
         private void storyBoard_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Profile profile = new Profile();
+            profile.Show();
         }
     }
 }

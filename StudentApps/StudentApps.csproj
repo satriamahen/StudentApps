@@ -425,6 +425,7 @@
     <None Include="Resources\kisspng-pirate-parrot-royalty-free-cartoon-logo-5ad7685951a7e7.2498644415240663933345.png" />
     <None Include="Resources\kisspng-skull-and-crossbones-piracy-human-skull-symbolism-5aea012f812a78.2661145415252851675291.png" />
     <None Include="Resources\kisspng-skull-bones-piracy-skull-and-crossbones-clip-art-pirate-5ab5ef7f19ba46.0351297215218727671054.png" />
+    <None Include="Resources\istockphoto-482802653-612x612.jpg" />
     <Content Include="Resources\LoginButton.png" />
     <Content Include="Resources\LoginButton_hover.png" />
     <Content Include="Resources\logoutbutton.png" />

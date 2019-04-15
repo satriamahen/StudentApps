@@ -503,6 +503,16 @@ namespace StudentApps.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_482802653_612x612 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-482802653-612x612", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap jump {
             get {
                 object obj = ResourceManager.GetObject("jump", resourceCulture);
